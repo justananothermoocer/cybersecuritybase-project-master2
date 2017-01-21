@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Index of /</title>
+    </head>
+    <body>
+
+        <h1>Thank you! You have been signed up to the event!</h1>
+
+        <header th:fragmnet="header"></header>      
+        <ul>
+            <li><a th:href="@{/form}">Add your friends too</a></li> 
+            <li><a th:href="@{/cancel}">Cancel coming soon!</a></li>
+                
+        </ul>
+        <a href="/login">Login coming soon</a>
+        <a th:href="@{/users200900700}" style="text-decoration:none;color:White">Nothing here</a>
+    </body>
+</html>

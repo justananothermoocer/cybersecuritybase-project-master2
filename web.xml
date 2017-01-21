@@ -1,0 +1,17 @@
+<servlet>
+  <servlet-name>DirectoryListing</servlet-name>
+  <servlet-class>com.package.MyServlet</servlet-class>
+  <init-param>
+    <param-name>debug</param-name>
+    <param-value>0</param-value>
+  </init-param>
+  <init-param>
+    <param-name>listings</param-name>
+    <param-value>true</param-value>
+  </init-param>
+</servlet>
+    
+<servlet-mapping>
+  <servlet-name>DirectoryListing</servlet-name>
+  <url-pattern>/</url-pattern>
+</servlet-mapping>
